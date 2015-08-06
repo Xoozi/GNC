@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="HYD_USE">
+    <Item Value="综合"/>
+    <Item Value="防洪"/>
+    <Item Value="灌溉"/>
+    <Item Value="发电"/>
+    <Item Value="养殖"/>
+    <Item Value="其他"/>
+</Selection>

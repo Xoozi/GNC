@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="LR_MATRL">
+    <Item Value="沥混"/>
+    <Item Value="泥混"/>
+    <Item Value="沥青"/>
+    <Item Value="碎石"/>
+    <Item Value="石块"/>
+    <Item Value="加固土"/>
+    <Item Value="改善土"/>
+</Selection>

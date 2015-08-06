@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layer Name="HYDL" ClassId="3" Type="LINESTRING" Size="2" Symbol="CIRCLE" Alpha="255" Red="51" Green="204" Blue="204">
+    <Field Name="CC" DisplayName="分类代码" Type="C" Select="HYDL_CC"/>
+    <Field Name="Info" DisplayName="备注信息" Type="C"/>
+    <Field Name="GB" DisplayName="GB代码" Type="N"/>
+    <Field Name="BAS" DisplayName="流域" Type="C"/>
+    <Field Name="NAME" DisplayName="名称" Type="C"/>
+    <Field Name="ECRM" DisplayName="实体编码依据" Type="N" Select="HYD_ECRM"/>
+    <Field Name="TYPE" DisplayName="河流类型" Type="C" Select="HYD_TYPE"/>
+    <Field Name="EC" DisplayName="实体编码" Type="C"/>
+    <Field Name="GRADE" DisplayName="级别" Type="C"/>
+    <Field Name="LEN" DisplayName="长度" Type="D"/>
+    <Field Name="PASS" DisplayName="通航性质" Type="C"/>
+    <Field Name="PERIOD" DisplayName="时令月份" Type="C"/>
+    <Field Name="SHRC" DisplayName="共享河段编码" Type="C"/>
+    <Field Name="SDTF" DisplayName="单双向" Type="C" Select="HYD_SDTF"/>
+    <Field Name="WIDTH" DisplayName="宽度" Type="D"/>
+</Layer>

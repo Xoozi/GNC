@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="HYD_CC">
+    <Item Value="1011" DisplayName="河流"/>
+    <Item Value="1012" DisplayName="水渠"/>
+    <Item Value="1020" DisplayName="湖泊"/>
+    <Item Value="1031" DisplayName="水库"/>
+    <Item Value="1032" DisplayName="坑塘"/>
+    <Item Value="1040" DisplayName="海面"/>
+    <Item Value="1051" DisplayName="冰川"/>
+    <Item Value="1052" DisplayName="常年积雪"/>
+</Selection>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layer Name="NP" ClassId="1" Type="POINT" Size="5" Symbol="CIRCLE" Alpha="255" Red="255" Green="113" Blue="0">
+    <Field Name="Info" DisplayName="备注信息" Type="C"/>
+</Layer>

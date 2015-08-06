@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMain" >
+
+        
+    <!-- 最基层的地图控件 -->
+	<com.esri.android.map.MapView  
+		android:id="@+id/feild_map" 
+	    android:layout_width="fill_parent"   
+	    android:layout_height="fill_parent"
+	    android:background="#EEEEEEEE"/>
+	
+	
+	<!-- 为了调整调绘面板和底部的绘图工具栏位置的透明顶层布局 -->
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+    	
+	    <!-- 左上角的指南针 -->
+	    <com.gnc.dcqtech.uicontroll.CompassView 
+	        android:layout_width="100dp"
+	        android:layout_height="100dp"
+	        android:id="@+id/widget_compass"
+	        />
+	    
+	    <!-- 调绘面板 -->
+		<LinearLayout 
+		    android:visibility="gone"
+		    android:id="@+id/field_observating"
+		    android:layout_height="match_parent"
+		    android:layout_width="300dp"
+		    android:layout_alignParentRight="true"/>
+		
+		<!-- 底部绘图工具栏 -->
+		<LinearLayout 
+		    
+		    android:id="@+id/field_draw_tool"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_toLeftOf="@id/field_observating"/>
+	</RelativeLayout>
+	<!-- 为了调整调绘面板和底部的绘图工具栏位置的透明顶层布局 END-->
+	
+	
+</FrameLayout>

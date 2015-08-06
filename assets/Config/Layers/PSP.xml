@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layer Name="PSP" ClassId="6" Type="POINT" WithPhoto="5" Size="8" Symbol="CIRCLE" Alpha="255" Red="0" Green="0" Blue="166">
+    <Field Name="Info" DisplayName="备注信息" Type="C"/>
+</Layer>

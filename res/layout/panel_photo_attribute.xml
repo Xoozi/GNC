@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+   	android:layout_alignParentRight="true"
+   	android:layout_alignParentTop="true"
+   	android:layout_alignParentBottom="true">
+    
+    <!-- 拍摄时间 -->
+	<TableRow >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		    android:text="@string/label_photo_date"
+		    style="@style/font_camera_label"
+		    android:gravity="right"/>
+		
+		<TextView 
+		    android:id="@+id/text_photo_date"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			style="@style/font_camera_edit"/>
+	</TableRow>
+    
+    <!-- 经度 -->
+	<TableRow >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+		    android:text="@string/label_sample_lon"
+		    style="@style/font_camera_label"
+		    android:gravity="right"/>
+		
+		<TextView 
+		    android:id="@+id/text_photo_lon"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			style="@style/font_camera_edit"/>
+	</TableRow>
+	
+	
+	<!-- 纬度 -->
+	<TableRow >
+		<TextView 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/label_sample_lat"
+			style="@style/font_camera_label"
+			android:gravity="right"/>
+		
+		
+		<TextView 
+			android:id="@+id/text_photo_lat"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			style="@style/font_camera_edit"/>
+	</TableRow>
+	
+	
+	<!-- 高程 -->
+	<TableRow >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/label_sample_altitude"
+			style="@style/font_camera_label"
+			android:gravity="right"/>
+		
+		<TextView 
+			android:id="@+id/text_photo_altitude"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			style="@style/font_camera_edit"/>
+	</TableRow>
+	
+	<!-- 卫星数量 -->
+	<TableRow >
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/label_sample_satellite_count"
+			style="@style/font_camera_label"
+			android:gravity="right"/>
+		
+		<TextView 
+			android:id="@+id/text_photo_satellite_count"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			style="@style/font_camera_edit"/>
+	</TableRow>
+	
+    <!-- 方位角 -->
+    <TableRow>
+
+        <TextView
+            style="@style/font_camera_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/label_sample_bearing" />
+
+        <TextView
+            android:id="@+id/text_photo_bearing"
+            style="@style/font_camera_edit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </TableRow>
+    
+    <!-- 俯仰角 -->
+    <TableRow>
+
+        <TextView
+            style="@style/font_camera_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/label_sample_pitch" />
+
+        <TextView
+            android:id="@+id/text_photo_pitch"
+            style="@style/font_camera_edit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </TableRow>
+    
+    <!-- 横滚角 -->
+    <TableRow>
+
+        <TextView
+            style="@style/font_camera_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/label_sample_roll" />
+
+        <TextView
+            android:id="@+id/text_photo_roll"
+            style="@style/font_camera_edit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </TableRow>
+    
+    <!-- 拍摄距离 -->
+    <TableRow>
+
+        <TextView
+            style="@style/font_camera_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/label_sample_distance" />
+
+        <TextView
+            android:id="@+id/text_photo_distance"
+            style="@style/font_camera_edit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </TableRow>
+    
+    <!-- 分类代码 -->
+    <TableRow>
+
+        <TextView
+            style="@style/font_camera_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/label_sample_class_code" />
+
+        <TextView
+            android:id="@+id/text_photo_class_code"
+            style="@style/font_camera_edit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </TableRow>
+    
+    <!-- 环境描述 -->
+    <TableRow>
+
+        <TextView
+            style="@style/font_camera_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/label_sample_env_des" />
+
+        <TextView
+            android:id="@+id/text_photo_env_des"
+            style="@style/font_camera_edit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+    
+    <TableRow>
+        
+        <Button
+            android:id="@+id/btn_delete_photo"
+            style="@style/font_pop_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="@string/btn_delete_photo_and_feature" />
+
+    </TableRow>
+    
+    <TableRow>
+        
+        <Button
+            android:id="@+id/btn_show_feature"
+            style="@style/font_pop_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="@string/btn_show_feature" />
+
+    </TableRow>
+
+</TableLayout>

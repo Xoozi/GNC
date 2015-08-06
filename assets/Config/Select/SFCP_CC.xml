@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="SFCP_CC">
+    <Item Value="0722" DisplayName="闸"/>
+    <Item Value="0723" DisplayName="排灌泵站"/>
+    <Item Value="0735" DisplayName="高速公路入口"/>
+    <Item Value="0736" DisplayName="加油(气)、充电站"/>
+</Selection>

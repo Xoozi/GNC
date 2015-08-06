@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LayerClassList>
+    <LayerClass Id="1" Name="地表覆盖"/>
+    <LayerClass Id="2" Name="道路"/>
+    <LayerClass Id="3" Name="水体"/>
+    <LayerClass Id="4" Name="构筑物"/>
+    <LayerClass Id="5" Name="地理单元"/>
+    <LayerClass Id="6" Name="拍照采样"/>
+</LayerClassList>

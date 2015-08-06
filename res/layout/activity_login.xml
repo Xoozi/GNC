@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/shape_login_out"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical">
+    
+    <!-- 顶端的Title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            style="@style/font_login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/label_app" />
+    </LinearLayout>
+    <!-- 顶端的Title END-->
+    
+    
+    <!-- 分割线 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/my_blue" />
+
+    <!-- 登陆输入区 -->
+    <LinearLayout
+        android:id="@+id/field_login_input"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_pop_background"
+        android:orientation="vertical" >
+
+    	<TextView
+    	    android:id="@+id/text_licence_length"
+            style="@style/font_login_licence_length"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edit_login_username"
+            style="@style/font_loginlabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:hint="@string/hint_login_username"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/edit_login_password"
+            style="@style/font_loginlabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="1dp"
+            android:hint="@string/hint_login_password"
+            android:inputType="textPassword"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:singleLine="true" />
+
+        <!-- 按钮区域 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/btn_exit"
+                style="@style/font_login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/btn_exit" />
+
+            <Button
+                android:id="@+id/btn_login"
+                style="@style/font_login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:text="@string/btn_login" />
+        </LinearLayout>
+        <!-- 按钮区域 END -->
+        
+        <!-- 是否记录账户的checkbox -->
+        <CheckBox
+            android:id="@+id/checkbox_remember_account"
+            style="@style/font_pop_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="@string/checkbox_remember_account"
+            android:visibility="gone" />
+
+        <!--  展开更多设置 -->
+        <FrameLayout
+            android:id="@+id/button_login_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/image_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/login_more" />
+
+            <ImageView
+                android:id="@+id/image_more_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/login_more_up"
+                android:visibility="invisible" />
+        </FrameLayout>
+        <!--  展开更多设置END -->
+
+    </LinearLayout>
+    <!-- 登陆输入区 END -->
+    
+    
+    <!-- 激活区域 -->
+    <LinearLayout 
+        android:id="@+id/field_login_licence"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_pop_background"
+        android:orientation="vertical">
+        
+        <TextView 
+            android:layout_margin="25dp"
+            style="@style/font_loginlabel"
+            android:text="@string/label_licence_not_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <!-- 按钮区域 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/btn_licence_exit"
+                style="@style/font_login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/btn_exit" />
+
+            <Button
+                android:id="@+id/btn_licence_active"
+                style="@style/font_login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:text="@string/btn_active" />
+        </LinearLayout>
+        <!-- 按钮区域 END -->
+        
+    </LinearLayout>
+    <!-- 激活区域 -->
+    
+    
+
+</LinearLayout>

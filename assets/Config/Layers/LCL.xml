@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layer Name="LCL" ClassId="1" Type="LINESTRING" Size="2" Symbol="SOLID" Alpha="200" Red="222" Green="16" Blue="20">
+    <Field Name="CC" DisplayName="分类代码" Type="C" Select="LC_CC"/>
+    <Field Name="Info" DisplayName="备注信息" Type="C"/>
+</Layer>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layer Name="LCTL" ClassId="2" Type="LINESTRING" Size="3" Symbol="SOLID" Alpha="200" Red="241" Green="231" Blue="38">
+    <Field Name="CC" DisplayName="分类代码" Type="C" Value="0630"/>
+    <Field Name="Info" DisplayName="备注信息" Type="C"/>
+    <Field Name="GB" DisplayName="GB代码" Type="N"/>
+    <Field Name="LANE" DisplayName="车道数" Type="N"/>
+    <Field Name="NAME" DisplayName="名称" Type="C"/>
+    <Field Name="TYPE" DisplayName="类型" Type="C" Select="LCTL_TYPE"/>
+    <Field Name="WIDTH" DisplayName="路宽" Type="D"/>
+    <Field Name="ELEVT" DisplayName="是否高架" Type="N" Select="LR_ELEVT"/>
+    <Field Name="RN" DisplayName="道路编号" Type="C"/>
+</Layer>

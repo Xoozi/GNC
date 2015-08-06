@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="SFCP_TYPE">
+    <Item Value="进水闸"/>
+    <Item Value="退水闸"/>
+    <Item Value="节制闸"/>
+    <Item Value="挡潮闸"/>
+    <Item Value="船闸"/>
+    <Item Value="渠首闸"/>
+    <Item Value="其他"/>
+    <Item Value="排水泵站"/>
+    <Item Value="灌溉泵站"/>
+    <Item Value="排灌综合泵站"/>
+    <Item Value="出口"/>
+    <Item Value="入口"/>
+    <Item Value="加油站"/>
+    <Item Value="加气站"/>
+    <Item Value="充电站"/>
+</Selection>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layer Name="SFCA" ClassId="4" Type="POLYGON" Alpha="100" Red="220" Green="91" Blue="156">
+    <Field Name="CC" DisplayName="分类代码" Type="C" Select="SFCA_CC"/>
+    <Field Name="Info" DisplayName="备注信息" Type="C"/>
+    <Field Name="GB" DisplayName="GB代码" Type="N"/>
+    <Field Name="TYPE" DisplayName="类型" Type="C" Select="SFCA_TYPE"/>
+    <Field Name="NAME" DisplayName="名称" Type="C"/>
+</Layer>

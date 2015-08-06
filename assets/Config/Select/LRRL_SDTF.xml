@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="LRRL_SDTF">
+    <Item Value="单线"/>
+    <Item Value="双线"/>
+</Selection>

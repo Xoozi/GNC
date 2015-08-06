@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layer Name="LRDL" ClassId="2" Type="LINESTRING" Size="3" Symbol="SOLID" Alpha="200" Red="8" Green="99" Blue="84">
+    <Field Name="CC" DisplayName="分类代码" Type="C" Value="0620"/>
+    <Field Name="Info" DisplayName="备注信息" Type="C"/>
+    <Field Name="GB" DisplayName="GB代码" Type="N"/>
+    <Field Name="LANE" DisplayName="车道数" Type="N"/>
+    <Field Name="RN" DisplayName="道路编号" Type="C"/>
+    <Field Name="SDTF" DisplayName="单双向" Type="C" Select="LRDL_SDTF"/>
+    <Field Name="MATRL" DisplayName="铺设材料" Type="C" Select="LR_MATRL"/>
+    <Field Name="NAME" DisplayName="名称" Type="C"/>
+    <Field Name="WIDTH" DisplayName="路宽" Type="D"/>
+    <Field Name="NAMES" DisplayName="简称" Type="C"/>
+    <Field Name="ELEVT" DisplayName="是否高架" Type="N" Select="LR_ELEVT"/>
+    <Field Name="RNP" DisplayName="重复路段编号" Type="C"/>
+    <Field Name="RTEG" DisplayName="技术等级" Type="C" Select="LR_RTEG"/>
+</Layer>

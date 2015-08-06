@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="B_CC">
+    <Item Value="1117" DisplayName="行政村"/>
+    <Item Value="1123" DisplayName="国有农、林、牧场"/>
+    <Item Value="1126" DisplayName="风景名胜区、旅游区"/>
+    <Item Value="1141" DisplayName="居住小区"/>
+    <Item Value="1142" DisplayName="工矿企业"/>
+    <Item Value="1143" DisplayName="单位院落"/>
+</Selection>

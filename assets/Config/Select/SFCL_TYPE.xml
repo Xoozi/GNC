@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="SFCL_TYPE">
+    <Item Value="干堤"/>
+    <Item Value="一般堤"/>
+    <Item Value="滚水坝"/>
+    <Item Value="拦水坝"/>
+    <Item Value="制水坝"/>
+    <Item Value="进水闸"/>
+    <Item Value="退水闸"/>
+    <Item Value="节制闸"/>
+    <Item Value="挡潮闸"/>
+    <Item Value="船闸"/>
+    <Item Value="渠首闸"/>
+    <Item Value="其他"/>
+    <Item Value="火车隧道"/>
+    <Item Value="汽车隧道"/>
+    <Item Value="输水隧道"/>
+    <Item Value="人行桥"/>
+    <Item Value="铁路桥"/>
+    <Item Value="公路桥"/>
+    <Item Value="公路铁路两用桥"/>
+    <Item Value="水运港客运站"/>
+    <Item Value="固定顺岸码头"/>
+    <Item Value="固定堤坝码头"/>
+    <Item Value="栈桥式码头"/>
+    <Item Value="浮码头"/>
+    <Item Value="火车渡"/>
+    <Item Value="汽车渡"/>
+</Selection>

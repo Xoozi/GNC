@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="LR_RTEG">
+    <Item Value="高速"/>
+    <Item Value="一级"/>
+    <Item Value="二级"/>
+    <Item Value="三级"/>
+    <Item Value="四级"/>
+    <Item Value="五级"/>
+</Selection>

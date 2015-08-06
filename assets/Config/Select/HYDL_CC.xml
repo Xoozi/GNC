@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="HYDL_CC">
+    <Item Value="1011" DisplayName="河流"/>
+    <Item Value="1012" DisplayName="水渠"/>
+</Selection>

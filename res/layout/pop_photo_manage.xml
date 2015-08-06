@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_pop_background"
+    android:orientation="vertical">
+    
+    <!-- 标题栏 -->
+    <TextView 
+		android:id="@+id/text_title"
+		android:text="照片管理"
+		android:layout_gravity="center_horizontal"
+	   	android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    style="@style/font_pop_title"/>
+    
+    <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/my_blue"/>
+    
+    <!-- 主布局 -->
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="horizontal">
+        
+        <!-- 照片列表 -->
+    	<ListView 
+    	    android:id="@+id/listview_photo_thumb"
+    	    android:layout_alignParentLeft="true"
+    	    android:layout_alignParentTop="true"
+    	    android:layout_alignParentBottom="true"
+	        android:layout_width="150dp"
+	        android:layout_height="match_parent"/>
+    	
+    	
+    	<!-- 最右的照片属性表 -->
+    	<include 
+	        android:id="@+id/filed_photo_attribute"
+	        layout="@layout/panel_photo_attribute"/>
+    	
+    	
+    	 <!-- 中间的照片展示区域 -->
+    	 <FrameLayout 
+    	    android:id="@+id/filed_photo_display"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="match_parent"
+    	    android:layout_alignParentTop="true"
+    	    android:layout_alignParentBottom="true"
+    	    android:layout_toLeftOf="@id/filed_photo_attribute"
+    	    android:layout_toRightOf="@id/listview_photo_thumb">
+    	    
+    	     <!-- 图片控件 -->
+		    <ImageView
+		        android:background="#80FFFFFF"
+		        android:id="@+id/img_display"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:clickable="true"
+		        android:scaleType="matrix"/>
+    	     
+    	 </FrameLayout>
+    	
+    	
+    	
+    </RelativeLayout>
+    <!-- 主布局 END-->
+    
+    
+   
+
+
+</LinearLayout>

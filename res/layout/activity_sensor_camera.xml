@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySensorCamera" >
+
+    <LinearLayout 
+        android:id="@+id/field_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:background="#EE000000">
+        
+        <!-- 摄像预览右边的传感器参数显示 -->
+	    <TableLayout 
+	    	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content">
+	        
+	        <!-- 经度 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_lon"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_lon"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:editable="false"/>
+			</TableRow>
+			
+			<!-- 纬度 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_lat"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_lat"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:editable="false"/>
+			</TableRow>
+			
+			
+			<!-- 高程 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_altitude"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_altitude"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:inputType="numberSigned"
+	                />
+			</TableRow>
+			
+			<!-- 卫星数量 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_satellite_count"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_satellite_count"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:editable="false"/>
+			</TableRow>
+			
+			<!-- 方位角 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_bearing"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_bearing"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:editable="false"/>
+			</TableRow>
+			
+			<!-- 俯仰角 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_pitch"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_pitch"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:editable="false"/>
+			</TableRow>
+			
+			<!-- 横滚角 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_roll"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_roll"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:editable="false"/>
+			</TableRow>
+			
+			<!--  拍摄距离 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_distance"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_distance"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:inputType="numberDecimal"/>
+			</TableRow>
+			
+			<!-- 分类代码 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_class_code"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_class_code"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:inputType="text"/>
+			</TableRow>
+			
+			<!-- 环境描述 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_env_des"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_env_des"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:inputType="text"/>
+			</TableRow>
+			
+			<!-- 变焦倍数 -->
+			<TableRow >
+				<TextView 
+		        	android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/label_sample_zoom"
+		            style="@style/font_camera_label"
+		            android:gravity="right"/>
+				<EditText 
+				    android:id="@+id/edit_sample_zoom"
+				    android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                style="@style/font_camera_edit"
+	                android:editable="false"/>
+			</TableRow>
+			
+		</TableLayout>
+
+	    <SeekBar
+	        android:id="@+id/seekBar_zoom"
+	        android:layout_marginTop="20dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="bottom"
+	        android:orientation="vertical">
+			
+	        <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:layout_marginBottom="30dp"
+		        android:weightSum="2">
+				
+	            <Button 
+		            android:id="@+id/btn_cancel"
+		            android:text="@string/btn_cancel"
+		            style="@style/font_pop_btn"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"/>
+			
+		        <Button 
+		            android:id="@+id/btn_take_photo"
+		            android:text="@string/btn_take_photo"
+		            style="@style/font_pop_btn"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"/>
+		        
+		        
+	   		</LinearLayout>
+	        
+	    </LinearLayout>
+	    
+	    
+        
+    </LinearLayout>
+    
+    <com.gnc.dcqtech.uicontroll.CameraPreview
+        android:id="@+id/camera_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/field_sensor" />
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GNC</string>
+    <string name="action_settings">设置</string>
+    <string name="action_load_data">加载数据</string>
+    <string name="action_layer_control">图层控制</string>
+    <string name="action_gps">GPS</string>
+    <string name="action_sample_collect">样本采集</string>
+    <string name="action_photo_manage">照片管理</string>
+    <string name="action_observating">调绘面板</string>
+ 
+    
+    <string name="label_licence_length_days">授权剩余</string>
+    <string name="label_licence_length_days_ext">天</string>
+    <string name="label_licence_length_hours_ext">小时</string>
+    
+    <string name="label_app">地理普查移动采集</string>
+    <string name="label_login_account">登陆账号:</string>
+    <string name="label_setting_title">移动采集设置页面</string>
+    <string name="label_select_data_folder">选择数据文件夹</string>
+    <string name="label_select_licence_file">选择授权文件进行激活</string>
+    <string name="label_photo_date">拍摄时间</string>
+    <string name="label_sample_lon">经度</string>
+    <string name="label_sample_lat">纬度</string>
+    <string name="label_sample_altitude">高程</string>
+    <string name="label_sample_satellite_count">卫星数量</string>
+    <string name="label_sample_bearing">方位角</string>
+    <string name="label_sample_pitch">俯仰角</string>
+    <string name="label_sample_roll">横滚角</string>
+    <string name="label_sample_distance">拍摄距离</string>
+    <string name="label_sample_class_code">分类代码</string>
+    <string name="label_sample_env_des">环境描述</string>
+    <string name="label_sample_zoom">变焦参数:</string>
+    <string name="label_sample_notsupport_zoom">设备不支持</string>
+    <string name="label_observating_class">调绘类别</string>
+    <string name="label_observating_action">绘制:</string>
+    <string name="label_editing_action">编辑:</string>
+    <string name="label_select_to_edit">选择进行编辑</string>
+    <string name="label_exit_title">确认退出</string>
+    <string name="label_delete_photo_title">确认删除照片及其附属的要素</string>
+    <string name="label_sensor_delay">传感器灵敏度</string>
+    <string name="label_interval">时间间隔:</string>
+    <string name="label_notification_title">GNC正在后台记录轨迹</string>
+    <string name="label_notification_content">你懂的</string>
+    <string name="label_licence_not_active">本应用没有得到授权或者授权过期，请联系你的管理员获取更多帮助。</string>
+    
+    <string name="checkbox_label_visibility">是否显示Label</string>
+    <string name="checkbox_remember_account">记住账户密码</string>
+    <string name="check_auto_update">后台自动记录位置</string>
+    
+    <string name="hint_login_username">用户</string>
+	<string name="hint_login_password">密码</string>
+	<string name="hint_interval">位置更新间隔(分钟) 默认1分钟小于0.5分钟会设置为0.5分钟</string>
+	
+	<string name="btn_login">登   录</string>
+	<string name="btn_exit">退   出</string>
+	<string name="btn_active">授   权</string>
+    
+    <string name="btn_save">保存</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_close">关闭</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_take_photo">拍照</string>
+    <string name="btn_display_photo">照片</string>
+    <string name="btn_check_all">全部选中</string>
+    <string name="btn_uncheck_all">全部不选</string>
+    <string name="btn_exit_to_login">返回登陆</string>
+	<string name="btn_exit_app">退出应用</string>
+	<string name="btn_show_gps_marker">显示标记</string>
+	<string name="btn_hide_gps_marker">隐藏标记</string>
+	<string name="btn_show_feature">标记相关要素</string>
+	<string name="btn_delete_photo_and_feature">删除照片及要素</string>
+    
+    
+    <string name="btn_drawtool_go_back">上一步</string>
+	<string name="btn_drawtool_delete_last_node">删除最近添加节点</string>
+	<string name="btn_drawtool_clear">清  除</string>
+	<string name="btn_drawtool_unselect">取消选择</string>
+	<string name="btn_drawtool_cancel">放弃绘制</string>
+	<string name="btn_drawtool_freedraw_on">自由笔(开)</string>
+	<string name="btn_drawtool_freedraw_off">自由笔(关)</string>
+    
+    
+	<string name="toast_license_failed">授权失败，请联系你的管理员</string>
+	<string name="toast_clean_pending_photo">暂存的照片已清理</string>
+	<string name="toast_save_pending_photo">照片已保存</string>
+    <string name="toast_fsexplorer_root_dir">已经是根目录了</string>
+    <string name="toast_invalid_map">地图包解析失败</string>
+    <string name="toast_location_not_ready">定位功能未就绪，请检查你的GPS是否可以工作，是否由于建筑物遮挡无法找到卫星</string>
+    
+    <string name="btn_apply">应用</string>
+
+</resources>

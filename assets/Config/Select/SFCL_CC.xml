@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="SFCL_CC">
+    <Item Value="0721" DisplayName="堤坝"/>
+    <Item Value="0722" DisplayName="闸"/>
+    <Item Value="0729" DisplayName="其他水工构筑物"/>
+    <Item Value="0731" DisplayName="隧道"/>
+    <Item Value="0732" DisplayName="桥梁"/>
+    <Item Value="0733" DisplayName="码头"/>
+    <Item Value="0734" DisplayName="车渡"/>
+</Selection>

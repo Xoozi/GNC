@@ -1,0 +1,128 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <!-- 指定透明的shape -->
+        <item name="android:windowBackground">@drawable/shape_pop_activity</item>
+        
+        <!-- 屏幕背景不变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        
+        <item name="android:windowNoTitle">true</item>
+         
+    </style>
+    
+    <style name="font_loginlabel">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:background">@drawable/shape_pop_input</item>
+        <item name="android:padding">5dip</item>
+    </style>
+    
+    <style name="font_login_licence_length">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">5dip</item>
+    </style>
+    
+    <style name="font_login_title">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">@color/my_blue</item>
+        <item name="android:padding">2dip</item>
+    </style>
+    
+    <style name="font_login_btn">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:background">@drawable/selector_pop_button</item>
+    </style>
+    
+    <style name="font_pop_title">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">2dip</item>
+    </style>
+    
+    <style name="font_pop_list">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">2dip</item>
+    </style>
+    
+    <style name="font_pop_btn">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:background">@drawable/selector_pop_button</item>
+    </style>
+    
+    <style name="font_camera_label">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+    </style>
+    
+    <style name="font_photo_thumb_label">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+    </style>
+    
+    <style name="font_camera_edit">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:layout_margin">1dp</item>
+ 		<item name="android:singleLine">true</item>
+ 		<item name="android:background">@drawable/shape_pop_input</item>
+    </style>
+    
+    <style name="font_observating_text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:background">@drawable/shape_pop_input</item>
+    </style>
+    
+    <style name="font_observating_action" parent="font_observating_text">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    
+    <style name="font_observating_label" parent="font_observating_text">
+        <item name="android:padding">1dip</item>
+    </style>
+    
+    <style name="font_observating_btn" parent="font_pop_btn">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+    
+    
+    <style name="font_draw_tool_btn">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#EEEEEEEE</item>
+        <item name="android:padding">1dip</item>
+        <item name="android:background">@drawable/selector_pop_button</item>
+    </style>
+    
+    <style name="font_draw_tool_switch" parent="font_draw_tool_btn">
+        <item name="android:textSize">30sp</item>
+    </style>
+    
+
+</resources>

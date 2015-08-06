@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layer Name="BA" ClassId="5" Type="POLYGON" Alpha="100" Red="48" Green="121" Blue="190">
+    <Field Name="CC" DisplayName="分类代码" Type="C" Select="B_CC"/>
+    <Field Name="Info" DisplayName="备注信息" Type="C"/>
+    <Field Name="GB" DisplayName="GB代码" Type="N"/>
+    <Field Name="NAME" DisplayName="名称" Type="C"/>
+    <Field Name="PAC" DisplayName="政区代码" Type="C"/>
+    <Field Name="GRADE" DisplayName="等级" Type="C"/>
+    <Field Name="TYPE" DisplayName="类型" Type="C"/>
+    <Field Name="AREA" DisplayName="面积" Type="D"/>
+    <Field Name="ADMNGD" DisplayName="所在地" Type="C"/>
+    <Field Name="ANNNO" DisplayName="公告文号" Type="C"/>
+    <Field Name="REMK" DisplayName="说明" Type="C"/>
+    <Field Name="PRCTAG" DisplayName="界线范围准确程度" Type="C"/>
+    <Field Name="PAREA" DisplayName="规划面积" Type="D"/>
+    <Field Name="BAS" DisplayName="流域代码" Type="C"/>
+    <Field Name="BLDTM" DisplayName="建筑年代" Type="C"/>
+</Layer>

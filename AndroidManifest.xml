@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gnc.dcqtech"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:largeHeap="true">
+        <activity
+            android:name="com.gnc.dcqtech.activities.ActivityMain"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask"
+            android:label="@string/app_name">
+            
+        </activity>
+        
+        <!-- android:theme="@style/DialogStyle"
+          -->
+        <activity 
+            android:name=".activities.ActivitySensorCamera"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+            
+            
+        </activity>
+        
+        <activity 
+            android:name=".activities.ActivityLogin"
+            android:theme="@style/DialogStyle"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity 
+            android:name=".activities.ActivitySettings"
+            android:label="@string/label_setting_title"
+            android:screenOrientation="landscape">
+            
+        </activity>
+        
+        <service 
+            android:enabled="true"
+            android:permission="com.gnc.dcqtech.MY_SERVICE_PERMISSION"
+            android:name=".service.GPSTrackService">
+            
+        </service>
+    </application>
+
+</manifest>

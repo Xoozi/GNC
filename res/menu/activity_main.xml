@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/action_load_data" 
+        android:orderInCategory="100"
+        android:showAsAction="withText|always"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="@string/action_load_data"/>
+    
+    
+    
+    <item 
+        android:id="@+id/action_layer_control" 
+        android:orderInCategory="100"
+        android:showAsAction="withText|always"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/action_layer_control"/>
+    
+    <item 
+        android:id="@+id/action_gps" 
+        android:orderInCategory="100"
+        android:showAsAction="withText|always"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="@string/action_gps"/>
+    
+    <item 
+        android:id="@+id/action_sample_collect" 
+        android:orderInCategory="100"
+        android:showAsAction="withText|always"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/action_sample_collect"/>
+    
+    <item 
+        android:id="@+id/action_photo_manage" 
+        android:orderInCategory="100"
+        android:showAsAction="withText|always"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/action_photo_manage"/>
+    
+    <item 
+        android:id="@+id/action_observating" 
+        android:orderInCategory="100"
+        android:showAsAction="withText|always"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/action_observating"/>
+    
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:showAsAction="withText|never"
+        android:title="@string/action_settings"/>
+
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="HYD_TYPE">
+    <Item Value="常年河"/>
+    <Item Value="时令河"/>
+    <Item Value="干涸河"/>
+</Selection>

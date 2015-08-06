@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="LCTL_TYPE">
+    <Item Value="快速路"/>
+    <Item Value="主干路"/>
+    <Item Value="次干路"/>
+    <Item Value="支路"/>
+    <Item Value="地铁"/>
+    <Item Value="地面轨道"/>
+</Selection>

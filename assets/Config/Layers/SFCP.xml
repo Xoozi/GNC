@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layer Name="SFCP" ClassId="4" Type="POINT" Size="5" Symbol="CIRCLE" Alpha="255" Red="220" Green="91" Blue="156">
+    <Field Name="CC" DisplayName="分类代码" Type="C" Select="SFCP_CC"/>
+    <Field Name="Info" DisplayName="备注信息" Type="C"/>
+    <Field Name="GB" DisplayName="GB代码" Type="N"/>
+    <Field Name="RN" DisplayName="道路编码" Type="C"/>
+    <Field Name="NAME" DisplayName="名称" Type="C"/>
+    <Field Name="TYPE" DisplayName="类型" Type="C" Select="SFCP_TYPE"/>
+</Layer>

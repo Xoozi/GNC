@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layer Name="LRRL" ClassId="2" Type="LINESTRING" Size="4" Symbol="DASHDOTDOT" Alpha="200" Red="10" Green="125" Blue="10">
+    <Field Name="CC" DisplayName="分类代码" Type="C" Value="0610"/>
+    <Field Name="Info" DisplayName="备注信息" Type="C"/>
+    <Field Name="GB" DisplayName="GB代码" Type="N"/>
+    <Field Name="DEST" DisplayName="终点" Type="C"/>
+    <Field Name="NAME" DisplayName="名称" Type="C"/>
+    <Field Name="RN" DisplayName="铁路编号" Type="C"/>
+    <Field Name="SDTF" DisplayName="单双线" Type="C" Select="LRRL_SDTF"/>
+    <Field Name="START" DisplayName="起点" Type="C"/>
+    <Field Name="TYPE" DisplayName="类型" Type="C" Select="LRRL_TYPE"/>
+    <Field Name="BLDTM" DisplayName="建成日期" Type="C" />
+    <Field Name="ELEVT" DisplayName="是否高架" Type="N" Select="LR_ELEVT"/>
+    <Field Name="RNP" DisplayName="重复路段编号" Type="C"/>
+</Layer>

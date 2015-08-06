@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#EE000000">
+    
+    
+    	<!-- 最底端的按钮 -->
+    	<FrameLayout 
+    	    android:id="@+id/field_observating_btns"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_alignParentBottom="true">
+	        
+    	    <LinearLayout 
+		        android:layout_height="wrap_content"
+		        android:layout_width="match_parent"
+		        android:gravity="center">
+		        
+		        
+		        <Button 
+		            android:id="@+id/btn_save"
+		            android:text="@string/btn_save"
+		            android:layout_height="wrap_content"
+		     		android:layout_width="wrap_content"
+		     		style="@style/font_observating_btn"/>
+		        
+		        <Button 
+		            android:id="@+id/btn_close"
+		            android:text="@string/btn_close"
+		            android:layout_height="wrap_content"
+		     		android:layout_width="wrap_content"
+		     		style="@style/font_observating_btn"/>
+		        
+		        <Button 
+		            android:visibility="gone"
+		            android:id="@+id/btn_take_photo"
+		            android:text="@string/btn_take_photo"
+		            android:layout_height="wrap_content"
+		     		android:layout_width="wrap_content"
+		     		style="@style/font_observating_btn"/>
+		        
+		        <Button 
+		            android:visibility="gone"
+		            android:id="@+id/btn_delete"
+		            android:text="@string/btn_delete"
+		            android:layout_height="wrap_content"
+		     		android:layout_width="wrap_content"
+		     		style="@style/font_observating_btn"/>
+		        
+		        <Button 
+		            android:visibility="gone"
+		            android:id="@+id/btn_display_photo"
+		            android:text="@string/btn_display_photo"
+		            android:layout_height="wrap_content"
+		     		android:layout_width="wrap_content"
+		     		style="@style/font_observating_btn"/>
+	 
+	    	</LinearLayout>
+	    	
+    	    <!-- 用来指示待处理的照片 -->
+    	    <ImageButton 
+    	        android:visibility="invisible"
+    	        android:id="@+id/btn_pending_photo"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_gravity="center_vertical|right"
+    	        android:background="@android:drawable/ic_menu_gallery"/>
+    	    
+    	</FrameLayout>
+	    <!-- 最底端的按钮 END-->
+	    
+	    <!-- 调绘动作 -->
+	    <TextView
+	        android:id="@+id/text_observating_action"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_alignParentTop="true"
+	    
+	        android:gravity="center"
+	        style="@style/font_observating_action"/>
+	    
+	    <!-- 调绘类别 -->
+	    <LinearLayout 
+	        android:id="@+id/field_observating_class"
+	        android:layout_marginTop="2dp"
+	        android:layout_marginBottom="2dp"
+	     	android:layout_height="wrap_content"
+	     	android:layout_width="match_parent"
+	     	android:layout_below="@id/text_observating_action"
+	     	android:background="@drawable/shape_observating_frame"
+	        android:gravity="center_vertical">
+	        <TextView 
+	        	android:layout_height="wrap_content"
+	        	android:layout_width="wrap_content"
+	        	android:text="@string/label_observating_class"
+	        	style="@style/font_observating_label"/>
+	        
+	        <Spinner 
+	            android:id="@+id/spin_obervating_class"
+	            android:layout_height="wrap_content"
+	        	android:layout_width="match_parent"
+	        	/>
+	    </LinearLayout>
+	    
+	    <!-- 类别 下属图层 -->
+	    <LinearLayout 
+	        android:id="@+id/field_observating_layers"
+	        android:layout_marginTop="2dp"
+	        android:layout_marginBottom="2dp"
+	     	android:layout_height="60dp"
+	     	android:layout_width="match_parent"
+	     	android:layout_below="@id/field_observating_class"
+	     	android:background="@drawable/shape_observating_frame"
+	        android:gravity="center_vertical">
+	        
+	    </LinearLayout>
+	    
+	    <!-- 图层 属性列表 -->
+	    <LinearLayout 
+	        android:id="@+id/field_observating_layer_attr"
+	        android:layout_marginTop="2dp"
+	        android:layout_marginBottom="2dp"
+	     	android:layout_height="60dp"
+	     	android:layout_width="match_parent"
+	     	android:layout_below="@id/field_observating_layers"
+	     	android:layout_above="@id/field_observating_btns"
+	     	android:background="@drawable/shape_observating_frame"
+	        android:gravity="center_vertical">
+	        
+	    </LinearLayout>
+    
+
+</RelativeLayout>

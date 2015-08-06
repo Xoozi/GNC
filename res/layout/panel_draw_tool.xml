@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|right"
+    android:background="@drawable/shape_drawtool_frame"
+    android:padding="2dp">
+    
+    <com.gnc.dcqtech.uicontroll.LayerIcon 
+        android:id="@+id/layericon_current"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+    
+    <Button 
+	    android:layout_marginLeft="2dp"
+		android:layout_marginRight="2dp"
+	    android:id="@+id/btn_drawtools_go_back"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    style="@style/font_draw_tool_btn"
+	    android:text="@string/btn_drawtool_go_back"/>
+	       	    
+	<Button 
+	    android:layout_marginLeft="2dp"
+	    android:layout_marginRight="2dp"
+	    android:id="@+id/btn_drawtools_unselect"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	   	style="@style/font_draw_tool_btn"
+	    android:text="@string/btn_drawtool_unselect"/>
+	       	    
+	 <Button 
+	    android:layout_marginLeft="2dp"
+	    android:layout_marginRight="2dp"
+	    android:id="@+id/btn_drawtools_delete_last_node"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    style="@style/font_draw_tool_btn"
+	    android:text="@string/btn_drawtool_delete_last_node"/>
+	       	    
+	<Button 
+		android:layout_marginLeft="2dp"
+	    android:layout_marginRight="2dp"
+	    android:id="@+id/btn_drawtools_clear"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    style="@style/font_draw_tool_btn"
+	    android:text="@string/btn_drawtool_clear"/>
+	
+	<Button 
+		android:layout_marginLeft="2dp"
+	    android:layout_marginRight="2dp"
+	    android:id="@+id/btn_drawtools_cancel"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    style="@style/font_draw_tool_btn"
+	    android:text="@string/btn_drawtool_cancel"/>
+
+	<Switch
+	    android:id="@+id/switch_free_draw"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    style="@style/font_draw_tool_switch"
+	    android:textSize="30sp"
+	    android:textOn="@string/btn_drawtool_freedraw_on"
+	    android:textOff="@string/btn_drawtool_freedraw_off" />
+	
+	
+
+</LinearLayout>

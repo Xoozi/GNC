@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Selection Name="SFCA_CC">
+    <Item Value="0722" DisplayName="闸"/>
+    <Item Value="0733" DisplayName="码头"/>
+    <Item Value="0821" DisplayName="尾矿库"/>
+</Selection>
